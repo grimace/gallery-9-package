@@ -1,0 +1,31 @@
+import { __decorate } from "tslib";
+import { NgModule } from '@angular/core';
+import { NgxGalleryComponent } from './ngx-gallery.component';
+import { NgxGalleryPreviewComponent } from './ngx-gallery-preview/ngx-gallery-preview.component';
+import { NgxGalleryImageComponent } from './ngx-gallery-image/ngx-gallery-image.component';
+import { NgxGalleryThumbnailsComponent } from './ngx-gallery-thumbnails/ngx-gallery-thumbnails.component';
+import { NgxGalleryActionComponent } from './ngx-gallery-action/ngx-gallery-action.component';
+import { NgxGalleryArrowsComponent } from './ngx-gallery-arrows/ngx-gallery-arrows.component';
+import { NgxGalleryBulletsComponent } from './ngx-gallery-bullets/ngx-gallery-bullets.component';
+import { CommonModule } from '@angular/common';
+let NgxGalleryModule = class NgxGalleryModule {
+};
+NgxGalleryModule = __decorate([
+    NgModule({
+        declarations: [
+            NgxGalleryComponent,
+            NgxGalleryPreviewComponent,
+            NgxGalleryImageComponent,
+            NgxGalleryThumbnailsComponent,
+            NgxGalleryActionComponent,
+            NgxGalleryArrowsComponent,
+            NgxGalleryBulletsComponent
+        ],
+        imports: [
+            CommonModule
+        ],
+        exports: [NgxGalleryComponent]
+    })
+], NgxGalleryModule);
+export { NgxGalleryModule };
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibmd4LWdhbGxlcnkubW9kdWxlLmpzIiwic291cmNlUm9vdCI6Ii9Vc2Vycy9ncmVnb3J5bWFjZS9wcm9qZWN0cy9uZ3gtZ2FsbGVyeS05LXBhY2thZ2UvcHJvamVjdHMvbmd4LWdhbGxlcnkvc3JjLyIsInNvdXJjZXMiOlsibGliL25neC1nYWxsZXJ5Lm1vZHVsZS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiO0FBQUEsT0FBTyxFQUFFLFFBQVEsRUFBRSxNQUFNLGVBQWUsQ0FBQztBQUN6QyxPQUFPLEVBQUUsbUJBQW1CLEVBQUUsTUFBTSx5QkFBeUIsQ0FBQztBQUM5RCxPQUFPLEVBQUUsMEJBQTBCLEVBQUUsTUFBTSxxREFBcUQsQ0FBQztBQUNqRyxPQUFPLEVBQUUsd0JBQXdCLEVBQUUsTUFBTSxpREFBaUQsQ0FBQztBQUMzRixPQUFPLEVBQUUsNkJBQTZCLEVBQUUsTUFBTSwyREFBMkQsQ0FBQztBQUMxRyxPQUFPLEVBQUUseUJBQXlCLEVBQUUsTUFBTSxtREFBbUQsQ0FBQztBQUM5RixPQUFPLEVBQUUseUJBQXlCLEVBQUUsTUFBTSxtREFBbUQsQ0FBQztBQUM5RixPQUFPLEVBQUUsMEJBQTBCLEVBQUUsTUFBTSxxREFBcUQsQ0FBQztBQUNqRyxPQUFPLEVBQUUsWUFBWSxFQUFFLE1BQU0saUJBQWlCLENBQUM7QUFtQi9DLElBQWEsZ0JBQWdCLEdBQTdCLE1BQWEsZ0JBQWdCO0NBQUksQ0FBQTtBQUFwQixnQkFBZ0I7SUFmNUIsUUFBUSxDQUFDO1FBQ1IsWUFBWSxFQUFFO1lBQ1osbUJBQW1CO1lBQ25CLDBCQUEwQjtZQUMxQix3QkFBd0I7WUFDeEIsNkJBQTZCO1lBQzdCLHlCQUF5QjtZQUN6Qix5QkFBeUI7WUFDekIsMEJBQTBCO1NBQzNCO1FBQ0QsT0FBTyxFQUFFO1lBQ1AsWUFBWTtTQUNiO1FBQ0QsT0FBTyxFQUFFLENBQUMsbUJBQW1CLENBQUM7S0FDL0IsQ0FBQztHQUNXLGdCQUFnQixDQUFJO1NBQXBCLGdCQUFnQiIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IE5nTW9kdWxlIH0gZnJvbSAnQGFuZ3VsYXIvY29yZSc7XG5pbXBvcnQgeyBOZ3hHYWxsZXJ5Q29tcG9uZW50IH0gZnJvbSAnLi9uZ3gtZ2FsbGVyeS5jb21wb25lbnQnO1xuaW1wb3J0IHsgTmd4R2FsbGVyeVByZXZpZXdDb21wb25lbnQgfSBmcm9tICcuL25neC1nYWxsZXJ5LXByZXZpZXcvbmd4LWdhbGxlcnktcHJldmlldy5jb21wb25lbnQnO1xuaW1wb3J0IHsgTmd4R2FsbGVyeUltYWdlQ29tcG9uZW50IH0gZnJvbSAnLi9uZ3gtZ2FsbGVyeS1pbWFnZS9uZ3gtZ2FsbGVyeS1pbWFnZS5jb21wb25lbnQnO1xuaW1wb3J0IHsgTmd4R2FsbGVyeVRodW1ibmFpbHNDb21wb25lbnQgfSBmcm9tICcuL25neC1nYWxsZXJ5LXRodW1ibmFpbHMvbmd4LWdhbGxlcnktdGh1bWJuYWlscy5jb21wb25lbnQnO1xuaW1wb3J0IHsgTmd4R2FsbGVyeUFjdGlvbkNvbXBvbmVudCB9IGZyb20gJy4vbmd4LWdhbGxlcnktYWN0aW9uL25neC1nYWxsZXJ5LWFjdGlvbi5jb21wb25lbnQnO1xuaW1wb3J0IHsgTmd4R2FsbGVyeUFycm93c0NvbXBvbmVudCB9IGZyb20gJy4vbmd4LWdhbGxlcnktYXJyb3dzL25neC1nYWxsZXJ5LWFycm93cy5jb21wb25lbnQnO1xuaW1wb3J0IHsgTmd4R2FsbGVyeUJ1bGxldHNDb21wb25lbnQgfSBmcm9tICcuL25neC1nYWxsZXJ5LWJ1bGxldHMvbmd4LWdhbGxlcnktYnVsbGV0cy5jb21wb25lbnQnO1xuaW1wb3J0IHsgQ29tbW9uTW9kdWxlIH0gZnJvbSAnQGFuZ3VsYXIvY29tbW9uJztcblxuXG5cbkBOZ01vZHVsZSh7XG4gIGRlY2xhcmF0aW9uczogW1xuICAgIE5neEdhbGxlcnlDb21wb25lbnQsXG4gICAgTmd4R2FsbGVyeVByZXZpZXdDb21wb25lbnQsIFxuICAgIE5neEdhbGxlcnlJbWFnZUNvbXBvbmVudCxcbiAgICBOZ3hHYWxsZXJ5VGh1bWJuYWlsc0NvbXBvbmVudCxcbiAgICBOZ3hHYWxsZXJ5QWN0aW9uQ29tcG9uZW50LFxuICAgIE5neEdhbGxlcnlBcnJvd3NDb21wb25lbnQsXG4gICAgTmd4R2FsbGVyeUJ1bGxldHNDb21wb25lbnRcbiAgXSxcbiAgaW1wb3J0czogW1xuICAgIENvbW1vbk1vZHVsZVxuICBdLFxuICBleHBvcnRzOiBbTmd4R2FsbGVyeUNvbXBvbmVudF1cbn0pXG5leHBvcnQgY2xhc3MgTmd4R2FsbGVyeU1vZHVsZSB7IH1cbiJdfQ==
